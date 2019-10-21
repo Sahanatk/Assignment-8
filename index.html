@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Employee Management Application</title>
+<link href="style.css" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+<div id= "header">
+<p>The Employee Management Application</p>
+</div>  
+<div id= "subHeader">
+<p>Add Employee</p>
+</div>
+<div id="content">
+<p>Name :<input type="text" id="name"><span id = "error"></span></p>
+<p>Title :<input type="text" id="title"><span id = "error1"></span></p>
+<p>Extension :<input type="text" id="extension"><span id = "error2"></span></p>
+<input type="button" id="btn" value="Add">
+</div>
+<div>
+<br><br><br>
+<p id="details"></p><br>
+<table id="tbl">
+<thead>
+<tr>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Extension</th>
+    <th></th>
+</tr>
+</thead>
+<tbody id="TBody">
+<tr id="tableEntry">
+    <td></td><td></td><td></td>
+    <td><input type="button" id="btnDel" value="delete"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

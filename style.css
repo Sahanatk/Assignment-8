@@ -1,0 +1,58 @@
+body{
+    width:960px;
+    margin-left: 40px;
+    overflow: hidden;
+    font: 1em Arial,Helvetica,Sans-serif;
+}
+
+#header{
+    font-weight: bold;
+    line-height: 2em; 
+}
+
+#subHeader{
+    line-height: 1em;
+    font-weight: 600;
+}
+
+#name{ margin-left: 35px; border: 2px solid #3B71A6; height: 25px; width:200px;}
+#title{ margin-left: 50px;border: 2px solid #3B71A6;height: 25px;width:200px;}
+#extension{ margin-left: 10px; border: 2px solid #3B71A6;height: 25px;width:200px;}
+
+#btn{
+    background-color:#689BD5; 
+    color: #ffffff; 
+    border: 2px solid #3B71A6;
+    width:80px;
+    height:30px;
+    margin-left: 210px;}
+
+thead th{
+    background-color: #689BD5;
+    padding: 10px;
+    width:150px;
+    color:#ffffff;
+    text-align: left;
+}
+#tableEntry{
+    padding: 10px;
+    width:150px;
+    text-align: left;
+}
+#tableEntry:nth-child(even){
+    background-color: #E3EBF3;
+}
+#tableEntry:nth-child(odd){
+    background-color: #C3D8EC;  
+}
+#btnDel{
+    background-color:#689BD5; 
+    color: #ffffff; 
+    border: 2px solid #3B71A6;
+    margin-left: 40px;
+    width:80px;
+}
+
+#error,#error1,#error2{
+    color:red;
+}
